@@ -20,17 +20,7 @@ p {
   font-size: 17px;
 }
 
-.container {
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 5px;
-  max-width: 800px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c0a33+0,2c0a33+70,2c0a33+100&1+0,0.85+70,0.64+100 */
-  background: -moz-linear-gradient(top,  hsla(290,67%,12%,1) 0%, hsla(290,67%,12%,0.85) 70%, hsla(290,67%,12%,0.64) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  hsla(290,67%,12%,1) 0%,hsla(290,67%,12%,0.85) 70%,hsla(290,67%,12%,0.64) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  hsla(290,67%,12%,1) 0%,hsla(290,67%,12%,0.85) 70%,hsla(290,67%,12%,0.64) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c0a33', endColorstr='#a32c0a33',GradientType=0 ); /* IE6-9 */
-}
+
 
 .navbar.navbar-default.navbar-fixed-top li {
   display:inline-flex;
