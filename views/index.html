@@ -6,15 +6,16 @@
   <title>Silicon Magi</title>
   <!--Imports-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/uikit.gradient.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/components/sticky.almost-flat.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <style>
   </style>
 </head>
 <body>
   <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-
-      <nav class="uk-navbar uk-margin-large-bottom">
-          <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">Brand</a>
+      <!-- Navigation -->
+      <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="">
+          <a class="uk-navbar-brand uk-hidden-small" href="http://nodejs-mongodb-example-magi.44fs.preview.openshiftapps.com/">Silicon Magi</a>
           <ul class="uk-navbar-nav uk-hidden-small">
               <li class="uk-active">
                   <a href="layouts_frontpage.html">Frontpage</a>
@@ -39,6 +40,7 @@
           <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
       </nav>
 
+      <!-- Content -->
       <div class="uk-grid" data-uk-grid-margin>
           <div class="uk-width-medium-1-1">
 
@@ -270,5 +272,6 @@
   <!-- jsquery must load before materialize -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/sticky.js"></script>
 </body>
 </html>
