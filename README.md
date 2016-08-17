@@ -4,6 +4,6 @@ features:
 
 uikit
 openshift origin deployment
-mongodb database connection
+mongodb database
 
 http://nodejs-mongodb-example-magi.44fs.preview.openshiftapps.com/
