@@ -36,6 +36,9 @@
     [data-uk-slideshow-item] {
       cursor: pointer;
     }
+    .pageCount {
+
+    }
   </style>
 </head>
 <body>
@@ -48,7 +51,7 @@
                 <a href="http://nodejs-mongodb-example-magi.44fs.preview.openshiftapps.com/">Showcase</a>
             </li>
             <li>
-                <a href="layouts_portfolio.html">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
             </li>
             <li>
                 <a href="https://github.com/siliconmagi/">Github</a>
@@ -59,7 +62,11 @@
             <li>
                 <a href="layouts_contact.html">Contact</a>
             </li>
+            <li class="uk-navbar-content uk-navbar-center">
+              <%=pageCountMessage%>
+            </li>
         </ul>
+
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
         <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
     </nav>
@@ -102,7 +109,7 @@
 <!-- Portfolio -->
     <div class="uk-grid" data-uk-grid-margin>
         <div class="uk-width-1-1">
-            <h1 class="uk-heading-large">Portfolio</h1>
+            <h1 class="uk-heading-large" name="portfolio">Portfolio</h1>
         </div>
     </div>
 
@@ -481,7 +488,6 @@
 
         </div>
     </div>
-
 </div>
 
   <div id="offcanvas" class="uk-offcanvas">
@@ -509,10 +515,10 @@
   <!-- jsquery must load before materialize -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/uikit.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/sticky.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/sticky.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/slideshow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/slideshow-fx.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/slider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/components/slider.min.js"></script>
 
   <script>
   (function($) {
